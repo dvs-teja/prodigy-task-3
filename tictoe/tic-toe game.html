@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      background-color: #3d6b8a;
+      font-family: Arial, sans-serif; 
+    }
+    .main {
+      margin-left: 50%;
+      transform: translateX(-50%); 
+      display: grid;
+      width: 320px;
+      height: 320px;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: repeat(3, 1fr);
+      gap: 10px;
+    }
+    .tic {
+      margin-top: 90px;
+      font-size: 40px;
+      text-align: center;
+      font-family: 'Arial', sans-serif; 
+    }
+    .buttons {
+      width: 100px; 
+      height: 100px; 
+      border-radius: 10px;
+      border: 0;
+      cursor: pointer;
+      font-size: 40px; 
+      font-family: Arial, sans-serif; 
+      text-align: center; 
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #fff; 
+    }
+    .divv {
+      text-align: center;
+    }
+    .reset {
+      margin-top: 40px;
+      width: 80px;
+      height: 30px;
+      border: 0;
+      border-radius: 10px;
+      background-color: #fa0a22;
+      cursor: pointer;
+      font-family: Arial, sans-serif; 
+      text-align: center; 
+    }
+  </style>
+</head>
+<body>
+  <div class="divv">
+    <h3 class="tic">Tic Tac Toe</h3>
+    <div class="main">
+      <button class="buttons"></button>
+      <button class="buttons"></button>
+      <button class="buttons"></button>
+      <button class="buttons"></button>
+      <button class="buttons"></button>
+      <button class="buttons"></button>
+      <button class="buttons"></button>
+      <button class="buttons"></button>
+      <button class="buttons"></button>
+    </div>
+    <button class="reset">Reset</button>
+  </div>
+  <script src="tic.js"></script>
+</body>
+</html>
+  
